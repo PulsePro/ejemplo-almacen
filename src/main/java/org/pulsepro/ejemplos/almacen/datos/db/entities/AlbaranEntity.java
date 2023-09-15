@@ -1,4 +1,4 @@
-package org.pulsepro.ejemplos.almacen.datos.db;
+package org.pulsepro.ejemplos.almacen.datos.db.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -29,5 +29,13 @@ public class AlbaranEntity {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public List<AlbaranProductoEntity> getAlbaranProductoEntities() {
+        return albaranProductoEntities;
+    }
+
+    public void setAlbaranProductoEntities(List<AlbaranProductoEntity> albaranProductoEntities) {
+        this.albaranProductoEntities = albaranProductoEntities;
     }
 }

@@ -1,4 +1,4 @@
-package org.pulsepro.ejemplos.almacen.datos.db;
+package org.pulsepro.ejemplos.almacen.datos.db.entities;
 
 import jakarta.persistence.*;
 
