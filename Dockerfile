@@ -9,8 +9,6 @@ COPY src src
 
 RUN ./mvnw package -DskipTests
 
-RUN ls -la target
-
 FROM amazoncorretto:17-alpine3.18
 
 EXPOSE 8080
