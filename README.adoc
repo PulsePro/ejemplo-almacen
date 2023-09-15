@@ -1,0 +1,12 @@
+= Ejemplo Almacén
+Este repositorio contiene un proyecto de ejemplo de como utilizar el framework spring
+para crear un pequeño servicio de control de almacen utilizado para un e-commerce.
+
+== Licencia
+
+Este código se distribuye bajo licencia link:https://github.com/PulsePro/ejemplo-almacen/blob/main/LICENSE[MIT].
+
+== Autores
+
+- Alejandro Alonso Mayo - mailto:alejandroalonsomayo@gmail.com[Mail] - link:https://github.com/AlejandroAM91[Github]
+- Pablo Gutiérrez - link:https://github.com/pabloguti[Github]
