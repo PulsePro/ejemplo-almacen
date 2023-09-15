@@ -1,4 +1,4 @@
-package org.pulsepro.ejemplos.almacen.datos.db.entities;
+package org.pulsepro.ejemplos.almacen.datos.db.jpa.albaranproducto;
 
 import jakarta.persistence.Embeddable;
 
@@ -6,6 +6,14 @@ import jakarta.persistence.Embeddable;
 public class AlbaranProductoId {
     private String albaranId;
     private String productoId;
+
+    public AlbaranProductoId() {
+    }
+
+    public AlbaranProductoId(String albaranId, String productoId) {
+        this.albaranId = albaranId;
+        this.productoId = productoId;
+    }
 
     public String getAlbaranId() {
         return albaranId;

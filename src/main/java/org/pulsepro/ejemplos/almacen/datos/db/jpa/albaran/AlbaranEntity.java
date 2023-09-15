@@ -1,8 +1,9 @@
-package org.pulsepro.ejemplos.almacen.datos.db.entities;
+package org.pulsepro.ejemplos.almacen.datos.db.jpa.albaran;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
+import org.pulsepro.ejemplos.almacen.datos.db.jpa.albaranproducto.AlbaranProductoEntity;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,8 @@
-package org.pulsepro.ejemplos.almacen.datos.db.entities;
+package org.pulsepro.ejemplos.almacen.datos.db.jpa.albaranproducto;
 
 import jakarta.persistence.*;
+import org.pulsepro.ejemplos.almacen.datos.db.jpa.albaran.AlbaranEntity;
+import org.pulsepro.ejemplos.almacen.datos.db.jpa.producto.ProductoEntity;
 
 @Entity(name = "albaran_producto")
 public class AlbaranProductoEntity {
@@ -22,8 +24,10 @@ public class AlbaranProductoEntity {
     public AlbaranProductoEntity() {
     }
 
-    public AlbaranProductoEntity(AlbaranProductoId id, Integer cantidad) {
+    public AlbaranProductoEntity(AlbaranProductoId id, AlbaranEntity albaran, ProductoEntity producto, Integer cantidad) {
         this.id = id;
+        this.albaran = albaran;
+        this.producto = producto;
         this.cantidad = cantidad;
     }
 

@@ -1,4 +1,4 @@
-package org.pulsepro.ejemplos.almacen.datos.db.entities;
+package org.pulsepro.ejemplos.almacen.datos.db.jpa.producto;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
